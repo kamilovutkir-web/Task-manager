@@ -1,0 +1,87 @@
+* {
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f4f4f4;
+
+    display: flex;
+
+    justify-content: center;
+
+    padding-top: 50px;
+
+}
+
+.container {
+
+    width: 700px;
+
+    background-color: white;
+
+    padding: 50px;
+
+    border-radius: 30px;
+
+}
+
+h1 {
+
+    margin-top: 0;
+
+}
+
+.add-task {
+
+    display: flex;
+
+    gap: 10px;
+
+}
+input {
+    flex: 1;
+
+    padding: 8px;
+
+    border: 1px solid #403d3d;
+
+    border-radius: 6px;
+
+    font-size: 10px;
+
+}
+
+input {
+
+    flex: 1;
+
+    padding: 12px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+}
+
+button {
+
+    padding: 12px 18px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+}
